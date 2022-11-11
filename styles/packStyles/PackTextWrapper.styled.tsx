@@ -4,5 +4,6 @@ export const StyledTextWrapper = styled.div`
   margin-left: 1.9rem;
   display: flex;
   flex-direction: column;
-  gap: 5px
+  gap: 5px;
+  transition: 0.5s;
 `;

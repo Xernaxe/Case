@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Pack from "../components/Pack"
+import Button from "../components/Button"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
     <Navbar />
     <Header/>
     <Pack/>
+    <Button/>
     </>
   )
 }
