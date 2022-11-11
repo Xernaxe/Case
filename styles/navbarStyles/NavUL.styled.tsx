@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledUL = styled.ul`
+export const StyledUl = styled.ul`
 	display: flex;
 	gap: 2vw;
 	height: inherit;

@@ -1,18 +1,18 @@
 import { StyledNav } from '../styles/navbarStyles/Navbar.styled';
-import { StyledUL } from '../styles/navbarStyles/NavUL.styled';
+import { StyledUl } from '../styles/navbarStyles/NavUL.styled';
 import { StyledA } from '../styles/navbarStyles/NavA.styled';
-import { StyledLI } from '../styles/navbarStyles/NavLI.styled';
+import { StyledLi } from '../styles/navbarStyles/NavLI.styled';
 import React from 'react';
 
 function Navbar() {
 	return (
 		<StyledNav>
-			<StyledUL>
-				<StyledLI><StyledA>Home</StyledA></StyledLI>
-				<StyledLI><StyledA>Store</StyledA></StyledLI>
-				<StyledLI><StyledA>Marketplace</StyledA></StyledLI>
-				<StyledLI><StyledA>Dexicon</StyledA></StyledLI>
-			</StyledUL>
+			<StyledUl>
+				<StyledLi><StyledA>Home</StyledA></StyledLi>
+				<StyledLi><StyledA>Store</StyledA></StyledLi>
+				<StyledLi><StyledA>Marketplace</StyledA></StyledLi>
+				<StyledLi><StyledA>Dexicon</StyledA></StyledLi>
+			</StyledUl>
 		</StyledNav>
 	);
 }
